@@ -1,5 +1,6 @@
 .calendar {
   margin-top: $base_margin * 5;
+  padding: $base_padding * 5;
   spacing-rows: 2px;
   spacing-columns: 2px;
 
@@ -73,7 +74,7 @@
     text-align: center;
     width: 2.4em;
     height: 2.4em;
-    border-radius: 9999px;
+    border-radius: $base_border_radius;
     color: $insensitive_fg_color;
 
     &:hover {
@@ -94,10 +95,12 @@
   &-nonwork-day { color: $fg_color; }
 
   &-today {
-    box-shadow: inset 0 0 3px $accent_bg_color;
-    background-color: $lightest_bg_color;
+    background-color: $accent_color;
+    color: black;
 
-    &:hover { background-color: $lighter_bg_color; }
+    &:hover {
+      background-color: mix($accent_color, $insensitive_fg_color, 50%);
+    }
 
     &:selected {}
   }
