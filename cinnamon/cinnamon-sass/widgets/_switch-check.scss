@@ -1,6 +1,6 @@
 // these are equal to the size of the svg
-$switch_height: 26px;
-$switch_width: 46px;
+$switch_height: 20px;
+$switch_width: 50px;
 
 $check_height: 20px;
 $check_width: 20px;
@@ -11,9 +11,9 @@ $check_width: 20px;
   height: $switch_height;
   width: $switch_width;
   background-size: contain;
-  background-image: url("toggle-off.svg");
+  background-image: url("#{$shared_assets_path}/switch-off.svg");
 
-  &:checked { background-image: url("toggle-on.svg"); }
+  &:checked { background-image: url("#{$shared_assets_path}/switch-on.svg"); }
 }
 
 // check
@@ -24,11 +24,11 @@ $check_width: 20px;
   StBin {
     width: $check_width;
     height: $check_height;
-    background-image: url("checkbox-off.svg");
+    background-image: url("#{$shared_assets_path}/checkbox-unchecked.svg");
   }
-  &:focus StBin { background-image: url("checkbox-off.svg"); }
-  &:checked StBin { background-image: url("checkbox.svg"); }
-  &:focus:checked StBin { background-image: url("checkbox.svg"); }
+  &:focus StBin { background-image: url("#{$shared_assets_path}/checkbox-unchecked.svg"); }
+  &:checked StBin { background-image: url("#{$shared_assets_path}/checkbox-checked.svg"); }
+  &:focus:checked StBin { background-image: url("#{$shared_assets_path}/checkbox-checked.svg"); }
 }
 
 // New CheckBoxes
@@ -39,11 +39,11 @@ $check_width: 20px;
   StBin {
     width: $check_width;
     height: $check_height;
-    background-image: url("checkbox-off.svg");
+    background-image: url("#{$shared_assets_path}/checkbox-unchecked.svg");
   }
-  &:focus StBin { background-image: url("checkbox-off.svg"); }
-  &:checked StBin { background-image: url("checkbox.svg"); }
-  &:focus:checked StBin { background-image: url("checkbox.svg"); }
+  &:focus StBin { background-image: url("#{$shared_assets_path}/checkbox-unchecked.svg"); }
+  &:checked StBin { background-image: url("#{$shared_assets_path}/checkbox-checked.svg"); }
+  &:focus:checked StBin { background-image: url("#{$shared_assets_path}/checkbox-checked.svg"); }
 }
 
 // radio
@@ -54,9 +54,9 @@ $check_width: 20px;
   StBin {
     width: $check_width;
     height: $check_height;
-    background-image: url("radio-off.svg");
+    background-image: url("#{$shared_assets_path}/radio-unchecked.svg");
   }
-  &:focus StBin { background-image: url("radio-off.svg"); }
-  &:checked StBin { background-image: url("radio.svg"); }
-  &:focus:checked StBin { background-image: url("radio.svg"); }
+  &:focus StBin { background-image: url("#{$shared_assets_path}/radio-unchecked.svg"); }
+  &:checked StBin { background-image: url("#{$shared_assets_path}/radio-checked.svg"); }
+  &:focus:checked StBin { background-image: url("#{$shared_assets_path}/radio-checked.svg"); }
 }
