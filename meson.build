@@ -1,4 +1,4 @@
-project('Larix', 'c', version : '0.0.0', meson_version : '>=1.0.0')
+project('Larix', version : '0.0.0', meson_version : '>=1.0.0')
 
 prefix = get_option('prefix')
 themedir = join_paths(prefix, 'Larix')

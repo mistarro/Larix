@@ -9,19 +9,19 @@
   &-overview-background-shade { background-color: transparentize(black, 0.8); }
 
   &-add-button {
-    background-image: url("add-workspace.svg");
+    background-image: url("assets/add-workspace.svg");
     height: 200px;
     width: 35px;
     transition-duration: 150;
 
     &:hover {
-      background-image: url("add-workspace-hover.svg");
+      background-image: url("assets/add-workspace-hover.svg");
       transition-duration: 150;
     }
   }
 
   &-close-button {
-    background-image: url("close.svg");
+    background-image: url("assets/close.svg");
     height: 26px;
     width: 26px;
     -cinnamon-close-overlap: 13px;
@@ -54,13 +54,13 @@
 .window {
 
   &-close-area {
-    background-image: url("trash-icon.svg");
+    background-image: url("assets/trash-icon.svg");
     height: 120px;
     width: 400px;
   }
 
   &-close {
-    background-image: url("close.svg");
+    background-image: url("assets/close.svg");
     height: 26px;
     width: 26px;
     -cinnamon-close-overlap: 13px;
