@@ -43,9 +43,9 @@
     width: 16px;
     height: 16px;
     color: $fg_color;
-    background-image: url("calendar-arrow-left.svg");
+    background-image: url("#{$shared_assets_path}/prev.svg");
 
-    &:hover { background-image: url("calendar-arrow-left-hover.svg"); }
+    &:hover { background-color: $lighter_bg_color; }
   }
 
   &-change-month-forward,
@@ -53,9 +53,9 @@
     width: 16px;
     height: 16px;
     color: $fg_color;
-    background-image: url("calendar-arrow-right.svg");
+    background-image: url("#{$shared_assets_path}/next.svg");
 
-    &:hover { background-image: url("calendar-arrow-right-hover.svg"); }
+    &:hover { background-color: $lighter_bg_color; }
   }
 
   &-day-event-dot-box {
@@ -73,7 +73,7 @@
   &-day-base {
     text-align: center;
     width: 2.4em;
-    height: 2.4em;
+    height: 2.0em;
     border-radius: $base_border_radius;
     color: $insensitive_fg_color;
 
@@ -83,14 +83,19 @@
   }
 
   &-day-heading {
+    font-size: 0.72em;
     color: $fg_color;
     margin-top: $base_margin * 3;
     // using this to move the weekday row closer to the dates
     height: 1.6em;
   }
 
-  &-work-day {}
-  &-week-number {}
+  &-week-number {
+    margin-right: $base_margin * 3;
+    padding-top: $base_padding * 2;
+    font-size: 0.72em;
+  }
+
   &-work-day { color: $fg_color; }
   &-nonwork-day { color: $fg_color; }
 

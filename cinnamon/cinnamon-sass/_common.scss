@@ -6,6 +6,12 @@ $modal_dialog_radius: 0px;
 
 $scalable_icon_size: to_em(16px);
 
+// Assets path (relative to the installed cinnamon.css file)
+$assets_path: "assets";
+
+// Shared assets path (relative to the installed cinnamon.css file)
+$shared_assets_path: "../shared/assets";
+
 // stage
 stage {
   color: $fg_color;

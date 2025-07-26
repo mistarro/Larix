@@ -11,3 +11,8 @@ install_subdir(
     exclude_directories: ['cinnamon-sass'],
     install_dir: themedir,
 )
+
+install_subdir(
+    'shared',
+    install_dir: themedir,
+)
