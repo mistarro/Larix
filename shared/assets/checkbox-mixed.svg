@@ -12,9 +12,10 @@
       <stop stop-color="#808080"/>
     </linearGradient>
   </defs>
-  <g id="checkbox-unckecked">
+  <g id="checkbox-mixed">
     <rect x="1.5" y="1.5" width="13" height="13"
       fill="none"
       stroke="url(#contour_color)" />
+    <path d="m 4,7 v 2 h 8 v -2 z" fill="url(#accent_color)" stroke-width="0" />
   </g>
 </svg>
