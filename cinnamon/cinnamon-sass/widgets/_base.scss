@@ -63,9 +63,9 @@
 .ripple-box {
   width: 100px;
   height: 100px;
-  background-image: url("assets/corner-ripple.svg");
+  background-image: url("#{$assets_path}/corner-ripple.svg");
 
-  &:rtl { background-image: url("assets/corner-ripple.svg"); }
+  &:rtl { background-image: url("#{$assets_path}/corner-ripple.svg"); }
 }
 
 // scrollbars
