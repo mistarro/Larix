@@ -8,7 +8,7 @@ subdir('cinnamon')
 install_subdir(
     'cinnamon',
     exclude_files: ['meson.build'],
-    exclude_directories: ['cinnamon-sass'],
+    exclude_directories: ['sass'],
     install_dir: themedir,
 )
 
