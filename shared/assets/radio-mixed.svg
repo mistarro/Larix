@@ -12,9 +12,10 @@
       <stop stop-color="#808080"/>
     </linearGradient>
   </defs>
-  <g id="radio-unchecked">
+  <g id="radio-mixed">
     <circle cx="8" cy="8" r="6.5"
       fill="none"
       stroke="url(#contour_color)" />
+    <path d="m 4,7 v 2 h 8 v -2 z" fill="url(#accent_color)" stroke-width="0" />
   </g>
 </svg>
