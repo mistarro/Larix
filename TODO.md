@@ -3,7 +3,7 @@
 ## General
 
 * Decide for a build system (meson vs CMake).
-* Redo shared assets (checkboxes and so on) SVG files (simplify, prepare for coloring).
+* Rename prev/next to arrowhead-left/right? Add arrowhead-up/dpwn? (Check naming conventions.)
 
 ## Cinnamon
 
@@ -13,7 +13,7 @@
 
 ## Icon theme (Papirus)
 
-* Include or reference?
+* Include or reference? (submodule?)
 * Make the theme configurable (the accent color for folders) from the build system.
 
 ## Notes
