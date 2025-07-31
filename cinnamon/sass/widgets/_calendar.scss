@@ -42,8 +42,7 @@
   &-change-month-forward:rtl {
     width: 16px;
     height: 16px;
-    color: $fg_color;
-    background-image: url("#{$shared_assets_path}/prev.svg");
+    background-image: url("#{$assets_path}/pan-start.svg");
 
     &:hover { background-color: $lighter_bg_color; }
   }
@@ -52,8 +51,7 @@
   &-change-month-back:rtl {
     width: 16px;
     height: 16px;
-    color: $fg_color;
-    background-image: url("#{$shared_assets_path}/next.svg");
+    background-image: url("#{$assets_path}/pan-end.svg");
 
     &:hover { background-color: $lighter_bg_color; }
   }

@@ -16,3 +16,12 @@ install_subdir(
     'shared',
     install_dir: themedir,
 )
+
+# take next/prev icons for the cinnamon clandar from the icon theme
+install_data(
+    [
+        'icon-theme/papirus-icon-theme/Papirus-Dark/16x16/actions/pan-end.svg',
+        'icon-theme/papirus-icon-theme/Papirus-Dark/16x16/actions/pan-start.svg'
+    ],
+    install_dir : join_paths(themedir, 'cinnamon/assets')
+)
