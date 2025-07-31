@@ -2,18 +2,14 @@
 
 ## General
 
-* Decide for a build system (meson vs CMake).
-* Rename prev/next to arrowhead-left/right? Add arrowhead-up/dpwn? (Check naming conventions.)
-
 ## Cinnamon
 
-* Make assets configurable with an accent color.
-* Share some assets (checkboxes, switches, radio buttons) with GTK theme.
+* simplify cinnamon private assets (workspace); icons from the icon theme?
+* Make shared assets configurable with an accent color.
 * Understand 'selected'/normal vs 'focused', 'active', ...
 
 ## Icon theme (Papirus)
 
-* Include or reference? (submodule?)
 * Make the theme configurable (the accent color for folders) from the build system.
 
 ## Notes
